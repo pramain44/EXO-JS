@@ -1,0 +1,75 @@
+input{
+    width: 15rem;
+    height: 15rem;
+}
+.imgBtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 5rem;
+}
+img{
+    width: 15rem;
+    height: 15rem;
+}
+.resultat0{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: #39FF14;
+    margin-left: 2rem;
+}
+.resultat1{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: red;
+    margin-left: 2rem;
+}
+.resultat2{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: blue;
+    margin-left: 2rem;
+}
+body{
+    background-image: url("https://www.wapiti-magazine.com/wp-content/uploads/sites/26/2017/05/Tigre-andy2673-iStock_1crdt-WEB2-scaled.jpg");
+    background-position: 50% 20%;
+}
+
+#winRate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: orangered;
+}
+
+.versus{
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 6rem;
+    color: white;
+}
+
+.player{
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
+    color: white;
+}
+
+.robot{
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    color: white;
+}
+

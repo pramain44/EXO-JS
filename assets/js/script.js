@@ -44,8 +44,8 @@ pierre.addEventListener('click',()=>{
     total++
     console.log('total',total)
     if(ai === 2){
-        nani1.src = './img/ciseau.png';
-        nani0.src = './img/caillou.jpg';
+        nani1.src = 'assets/img/ciseau.png';
+        nani0.src = 'assets/img/caillou.jpg';
         resultat.innerText = 'Winner Chicken Dinner';
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat0')
@@ -56,8 +56,8 @@ pierre.addEventListener('click',()=>{
     }
     else if(ai === 1){
         resultat.innerText = 'LOSERS';
-        nani1.src = './img/weed.jpg'
-        nani0.src = './img/caillou.jpg'
+        nani1.src = 'assets/img/weed.jpg'
+        nani0.src = 'assets/img/caillou.jpg'
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat1')
         var result = (playW/total)*100;
@@ -65,8 +65,8 @@ pierre.addEventListener('click',()=>{
     }
     else if(ai === 0){
         resultat.innerText = 'DEUCE';
-        nani0.src = './img/caillou.jpg'
-        nani1.src = './img/caillou.jpg'
+        nani0.src = 'assets/img/caillou.jpg'
+        nani1.src = 'assets/img/caillou.jpg'
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat2')
         total--;
@@ -81,8 +81,8 @@ feuille.addEventListener('click',()=>{
     total++
     console.log('total',total)
     if(ai === 0){
-        nani1.src = './img/caillou.jpg'
-        nani0.src = './img/weed.jpg';
+        nani1.src = 'assets/img/caillou.jpg'
+        nani0.src = 'assets/img/weed.jpg';
         resultat.innerText = 'Winner Chicken Dinner';
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat0')
@@ -92,8 +92,8 @@ feuille.addEventListener('click',()=>{
         console.log('playW',playW)
     }
     else if(ai === 2){
-        nani1.src = './img/ciseau.png'
-        nani0.src = './img/weed.jpg';
+        nani1.src = 'assets/img/ciseau.png'
+        nani0.src = 'assets/img/weed.jpg';
         resultat.innerText = 'LOSERS';
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat1')
@@ -101,8 +101,8 @@ feuille.addEventListener('click',()=>{
         winRate.innerHTML = 'winrate :'+' '+result+'%';
     }
     else if(ai === 1){
-        nani1.src = './img/weed.jpg'
-        nani0.src = './img/weed.jpg';
+        nani1.src = 'assets/img/weed.jpg'
+        nani0.src = 'assets/img/weed.jpg';
         resultat.innerText = 'DEUCE';
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat2')
@@ -118,8 +118,8 @@ ciseaux.addEventListener('click',()=>{
     let ai = Math.floor(Math.random() * 3);
     total++;
     if(ai === 1){
-        nani1.src = './img/weed.jpg'
-        nani0.src = './img/ciseau.png';
+        nani1.src = 'assets/img/weed.jpg'
+        nani0.src = 'assets/img/ciseau.png';
         resultat.innerText = 'Winner Chicken Dinner';
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat0')
@@ -129,8 +129,8 @@ ciseaux.addEventListener('click',()=>{
     }
     else if(ai === 0){
         resultat.innerText = 'LOSERS';
-        nani1.src = './img/caillou.jpg'
-        nani0.src = './img/ciseau.png';
+        nani1.src = 'assets/img/caillou.jpg'
+        nani0.src = 'assets/img/ciseau.png';
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat1')
         var result = (playW/total)*100;
@@ -138,8 +138,8 @@ ciseaux.addEventListener('click',()=>{
     }
     else if(ai === 2){
         resultat.innerText = 'DEUCE';
-        nani1.src = './img/ciseau.png';
-        nani0.src = './img/ciseau.png';
+        nani1.src = 'assets/img/ciseau.png';
+        nani0.src = 'assets/img/ciseau.png';
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat2')
         total--;

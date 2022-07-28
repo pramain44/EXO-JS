@@ -51,7 +51,7 @@ pierre.addEventListener('click',()=>{
         resultColor.className = ('resultat0')
         playW++;
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
         console.log('playW',playW)
     }
     else if(ai === 1){
@@ -61,7 +61,7 @@ pierre.addEventListener('click',()=>{
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat1')
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
     }
     else if(ai === 0){
         resultat.innerText = 'DEUCE';
@@ -71,7 +71,7 @@ pierre.addEventListener('click',()=>{
         resultColor.className = ('resultat2')
         total--;
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
     }
     console.log('resultat',result)
     console.log(ai);
@@ -88,7 +88,7 @@ feuille.addEventListener('click',()=>{
         resultColor.className = ('resultat0')
         playW++;
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
         console.log('playW',playW)
     }
     else if(ai === 2){
@@ -98,7 +98,7 @@ feuille.addEventListener('click',()=>{
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat1')
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
     }
     else if(ai === 1){
         nani1.src = 'assets/img/weed.jpg'
@@ -108,10 +108,9 @@ feuille.addEventListener('click',()=>{
         resultColor.className = ('resultat2')
         total--;
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
     }
     console.log(ai);
-winRate.innerHTML = 'winrate :'+' '+result+'%';
 console.log(result)
 })
 ciseaux.addEventListener('click',()=>{
@@ -125,7 +124,7 @@ ciseaux.addEventListener('click',()=>{
         resultColor.className = ('resultat0')
         playW++;
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
     }
     else if(ai === 0){
         resultat.innerText = 'LOSERS';
@@ -134,7 +133,7 @@ ciseaux.addEventListener('click',()=>{
         let = resultColor = document.getElementById('resultat')
         resultColor.className = ('resultat1')
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
     }
     else if(ai === 2){
         resultat.innerText = 'DEUCE';
@@ -144,9 +143,8 @@ ciseaux.addEventListener('click',()=>{
         resultColor.className = ('resultat2')
         total--;
         var result = (playW/total)*100;
-        winRate.innerHTML = 'winrate :'+' '+result+'%';
+        winRate.innerHTML = 'winrate :'+' '+Math.round(result)+'%';
     }
-winRate.innerHTML = 'winrate :'+' '+result+'%';
 console.log(ai);
 })
 //winRate.innerHTML = 'winrate :'+' '+result+'%';

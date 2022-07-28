@@ -1,3 +1,4 @@
+
 input{
     width: 15rem;
     height: 15rem;
@@ -71,5 +72,28 @@ body{
     margin-left: 2rem;
     margin-top: 6rem;
     color: white;
+}
+
+@media screen and (max-width:900px){
+    input{
+        width: 5rem;
+        height: 5rem;
+    }
+    img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .main{
+        justify-content: space-evenly;
+    }
+    .player{
+        display: none;
+    }
+    .robot{
+        display: none;
+    }
+    .versus{
+        margin-top: 1.2rem;
+    }
 }
 
